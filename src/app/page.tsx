@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import {
-  Code2,
   Mail,
   MapPin,
   Phone,
@@ -102,7 +101,6 @@ export default function Home() {
           >
             <MessageCircle aria-hidden="true" />
           </a>
-          <Code2 aria-hidden="true" />
         </div>
       </footer>
     </div>
