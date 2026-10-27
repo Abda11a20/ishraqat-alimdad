@@ -52,7 +52,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
-      <body className="font-arabic min-h-screen bg-[#030712] text-slate-100 antialiased selection:bg-brand-orange selection:text-white">
+      <body className="font-arabic bg-[#030712] text-slate-100 antialiased selection:bg-brand-orange selection:text-white">
         {children}
       </body>
     </html>
