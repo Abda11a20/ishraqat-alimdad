@@ -26,7 +26,20 @@ export default function Home() {
       <div className={`scene${reduceMotion ? " scene-static" : ""}`} aria-hidden="true">
         {!reduceMotion && (
           <video
-            className="scene-video"
+            className="scene-video scene-video-fill"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+            tabIndex={-1}
+          >
+            <source src="/videos/ishraqat-alimdad.mp4" type="video/mp4" />
+          </video>
+        )}
+        {!reduceMotion && (
+          <video
+            className="scene-video scene-video-main"
             autoPlay
             muted
             loop
