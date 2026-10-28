@@ -8,7 +8,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 
-const address = "المملكة العربية السعودية، ينبع، حي الدانة، طريق الملك عبدالعزيز";
+const address = "المملكة العربية السعودية، ينبع، حي الحدائق، طريق الملك عبدالعزيز";
 
 export default function Home() {
   const [reduceMotion, setReduceMotion] = useState(false);
