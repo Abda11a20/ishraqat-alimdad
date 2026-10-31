@@ -63,13 +63,13 @@ export default function Home() {
           <div className="gold-accent" aria-hidden="true" />
 
           <nav className="contact-actions" aria-label="قنوات التواصل">
-            <a className="contact-button phone-button" href="tel:+966143255759">
+            <a className="contact-button phone-button" href="tel:+966569509879">
               <Phone aria-hidden="true" />
               <span className="contact-label">اتصال مباشر</span>
             </a>
             <a
               className="contact-button whatsapp-button"
-              href="https://wa.me/966559917388"
+              href="https://wa.me/966569509879"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -90,13 +90,13 @@ export default function Home() {
             <MapPin aria-hidden="true" />
             <span>{address}</span>
           </div>
-          <a href="tel:+966143255759" dir="ltr">
+          <a href="tel:+966569509879" dir="ltr">
             <Phone aria-hidden="true" />
-            <span>+966 143255759</span>
+            <span>+966 569509879</span>
           </a>
-          <a href="https://wa.me/966559917388" target="_blank" rel="noopener noreferrer" dir="ltr">
+          <a href="https://wa.me/966569509879" target="_blank" rel="noopener noreferrer" dir="ltr">
             <MessageCircle aria-hidden="true" />
-            <span>+966 559917388</span>
+            <span>+966 569509879</span>
           </a>
           <a href="mailto:ashraqat.alimdad@outlook.com" dir="ltr">
             <Mail aria-hidden="true" />

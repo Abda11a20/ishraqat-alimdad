@@ -31,7 +31,7 @@ const organizationStructuredData = {
   ],
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+966143255759",
+    telephone: "+966569509879",
     email: "ashraqat.alimdad@outlook.com",
     contactType: "customer service",
     availableLanguage: "Arabic",
